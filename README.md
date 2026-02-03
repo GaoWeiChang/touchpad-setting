@@ -44,7 +44,7 @@ Open blacklist conf file
 ```
 sudo vim /etc/modprobe.d/blacklist.conf
 ```
-Comment out (or if doesn't exists add into it)
+Comment (#) out (or if doesn't exists add into it)
 ```
 blacklist i2c_hid
 blacklist hid_multitouch
