@@ -1,4 +1,4 @@
-# Synaptics Touchpad Fix for Ubuntu 24.04 (Xorg)
+# Synaptics Touchpad Setting/Fix for Ubuntu 24.04 (Xorg)
 A configuration guide to fix Synaptics touchpad lag/stuttering issues on laptops running Ubuntu 24.04 LTS.
 
 ## Edit GRUB kernel parameters
@@ -28,7 +28,7 @@ Section "InputClass"
     Driver "synaptics"
 
     Option "TapButton1" "1"
-    Option "TapButton2" "3"
+    Option "TapButton2" "0"
     Option "TapButton3" "2"
 
     Option "FingerLow" "20"
