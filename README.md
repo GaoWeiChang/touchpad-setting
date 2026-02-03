@@ -1,4 +1,4 @@
-# Synaptics Touchpad Fix for ThinkPad on Ubuntu 24.04
+# Synaptics Touchpad Fix for Ubuntu 24.04
 A configuration guide to fix Synaptics touchpad lag/stuttering issues on laptops running Ubuntu 24.04 LTS.
 
 ## Edit GRUB kernel parameters
